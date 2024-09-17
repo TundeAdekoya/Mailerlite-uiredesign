@@ -1,3 +1,12 @@
+## Mailerlite UI-redesign
+This is a website redesign of the hero section  
+
+### Description
+For the MailerLite Hero Section redesign, the goal was to create a visually compelling and user-friendly introduction that effectively communicates the product's value. Using Figma, I redesigned the hero section with a clean, modern layout, incorporating a bold headline, engaging visuals, and a clear call-to-action button. The design emphasizes simplicity and clarity, ensuring users can quickly grasp the product's benefits.
+
+Once the design was finalized, I translated it into code using HTML, CSS, and Tailwind CSS for rapid styling. Tailwind allowed for efficient utility-first development, ensuring pixel-perfect responsiveness across devices. The final implementation retained the original design's aesthetic, while optimizing load times and ensuring accessibility.
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
