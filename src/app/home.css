@@ -1,0 +1,12 @@
+.background {
+    /* background-image: url('/src/Assets/Mailerlite background.png'); */
+    height: 100vh;
+}
+.background-image{
+    width: 100%;
+    background-position: center;
+    background-size:contain;
+    position: fixed;
+    z-index: -1;
+
+}

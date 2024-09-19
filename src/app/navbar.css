@@ -1,0 +1,66 @@
+#navbar{
+    font-size: 14px;
+}
+
+
+.company-logo{
+    width: 20vw;
+}
+
+#navbar li {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    cursor: pointer;
+    color: hsla(0, 0%, 6%, 0.80);
+}
+
+#navbar li:hover{
+    color: hsla(0, 0%, 6%);
+}
+
+
+#navbar li.login-cta:hover{
+    color: #16653C;
+    text-decoration-color: #158048;
+}
+
+.nav-call-to-action-web button{
+    background-color: #158048;
+    padding:  8px 16px;
+    border-radius: 4px;
+    font-weight: 600;
+    border: 1.5px solid #16653C;
+    color: #F0FDF5;
+    cursor: pointer;
+    box-shadow: 0.2px 0.2px 2px 2px #DCFCEA;
+}
+
+.nav-call-to-action-web button:hover{
+    background-color: #16653C;
+    color: #ffffff;
+    
+}
+
+.nav-call-to-action-mobile{
+    display: none;
+}
+
+@media (max-width: 1081px) { 
+    .nav-call-to-action-web ul{
+        display: none;
+    }
+}
+
+
+@media (max-width: 850px){
+      .nav-call-to-action-mobile{
+          display: flex;
+      }
+
+      .nav-list, .nav-call-to-action-web{
+        display: none;
+      }
+
+  } 
