@@ -1,3 +1,5 @@
+![Slide 16_9 - 1](https://github.com/user-attachments/assets/1dfaaae7-0b6e-486b-a880-baafc970a3a7)
+
 ## Mailerlite UI-redesign
 This is a website redesign of the hero section  
 
