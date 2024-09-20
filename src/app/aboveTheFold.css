@@ -9,6 +9,12 @@
     border-radius: 360px;
     font-size: 14px;
     color: #3B2290;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.badge:hover{
+    background-color: #ebeafd;
 }
 
 .main-content .main-text h1{
@@ -19,10 +25,18 @@
 
 }
 
-.sub-text p{
+.sub-text-web p, .sub-text-mobile p{
     font-size: 16px;
     font-weight: 500;
     color: hsla(0, 0%, 6%, 0.80);
+}
+
+.sub-text-mobile{
+    display: none;
+}
+
+.badge-mobile{
+    display: none;
 }
 
 .main-cta{
@@ -40,6 +54,7 @@
     color: #F0FDF5;
     cursor: pointer;
     box-shadow: 0.2px 0.2px 2px 2px #DCFCEA;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .main-cta .sign-up:hover {
@@ -56,9 +71,50 @@
     border: 1.5px solid #E7E7E7;
     color: hsla(0, 0%, 6%, 0.80);
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .main-cta .demo:hover{
     color: hsla(0, 0%, 6%);
     background-color: #FAFAFA;
+}
+
+@media (max-width: 831px) { 
+    .main-content .main-text h1{
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .badge-web{
+        display: none;
+    }
+
+    .badge-mobile{
+        display:block;
+    }
+
+}
+
+
+@media (max-width: 573px){
+    .sub-text-web {
+        display: none;
+    }
+
+    .sub-text-mobile{
+        display:block;
+    }
+
+    
+    
+}
+
+@media (max-width: 450px){
+    .main-cta{
+        flex-direction: column;
+    }
+    .main-cta .sign-up, .main-cta .demo{
+        width: 100vw;
+    }
+
 }

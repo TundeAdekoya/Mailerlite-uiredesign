@@ -1,0 +1,105 @@
+#hero-section{                        
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+}
+
+#hero-section p{
+    font-size: 16px;
+    color: hsla(0, 0%, 6%, 0.95);
+    font-weight: 500;
+}
+
+.section-one, .section-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;       
+    gap: 16px;
+}
+
+.email-campaign, .sell-digital-products, .track-your-results, .automate  {
+    height: 312px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.email-campaign{
+    background-color: #F5F2FF;
+    border: 2.4px solid #EAE4FF;
+} 
+
+.email-header .CircleArrowRight,  
+.digital-products-header .CircleArrowRight,
+.track-results-header .CircleArrowRight,
+.automate-header .CircleArrowRight{
+    transition: transform 0.3s ease;
+}
+
+.email-campaign:hover .email-header .CircleArrowRight, 
+.sell-digital-products:hover .digital-products-header .CircleArrowRight, 
+.track-your-results:hover .track-results-header .CircleArrowRight, 
+.automate:hover .automate-header .CircleArrowRight {
+    transform: translateX(16px);
+}
+
+.email-header{
+    color: #5E1ABD;
+}
+
+.sell-digital-products{
+    background-color: #F2FBF7;
+    border: 2.4px solid #D8F5E7;
+} 
+
+.sell-digital-products:hover{
+
+    border: 2.4px solid #c4eeda;
+} 
+
+.digital-products-header{
+    color: #225941;
+}
+
+
+.track-your-results{
+    background-color: #FCFBE1;
+    border: 2.4px solid #FBF9C6;
+} 
+
+
+.track-results-header{
+    color: #99670F;
+}
+
+.automate{
+    background-color: #F4F5FE;
+    border: 2.4px solid #EBEAFD;
+}
+
+.automate-header {
+    color: #3B2290;
+}
+
+.email-campaign, .automate  {
+    width: 528px ;
+}
+
+.sell-digital-products, .track-your-results {
+    width: 352px ;
+}
+
+
+@media (max-width: 900px) { 
+    .section-one, .section-two{
+        flex-direction: column;
+    }
+
+    .email-campaign, .automate, .sell-digital-products, .track-your-results  {
+        width: 50%;
+    }
+    
+}
+
+@media (max-width: 560px) {
+    .email-campaign, .automate, .sell-digital-products, .track-your-results  {
+        width: 100%;
+    }
+}

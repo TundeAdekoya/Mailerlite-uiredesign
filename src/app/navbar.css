@@ -13,7 +13,7 @@
     font-weight: 500;
     letter-spacing: -0.5px;
     cursor: pointer;
-    color: hsla(0, 0%, 6%, 0.80);
+    color: hsla(0, 0%, 6%, 0.95);
 }
 
 #navbar li:hover{
@@ -35,11 +35,13 @@
     color: #F0FDF5;
     cursor: pointer;
     box-shadow: 0.2px 0.2px 2px 2px #DCFCEA;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .nav-call-to-action-web button:hover{
     background-color: #16653C;
     color: #ffffff;
+    /* transform: scale(1.05);  */
     
 }
 
