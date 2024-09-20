@@ -1,0 +1,19 @@
+<svg width="359" height="216" viewBox="0 0 359 216" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M179.833 179C197.506 179 211.833 164.673 211.833 147C211.833 129.327 197.506 115 179.833 115C162.16 115 147.833 129.327 147.833 147C147.833 164.673 162.16 179 179.833 179ZM192.075 141.474C192.865 140.702 192.879 139.436 192.107 138.646C191.335 137.856 190.069 137.841 189.279 138.613L176.473 151.129L170.753 145.285C169.98 144.495 168.714 144.482 167.925 145.254C167.135 146.027 167.122 147.293 167.894 148.083L175.012 155.355C175.784 156.144 177.05 156.159 177.839 155.387L192.075 141.474Z" fill="#158048"/>
+<mask id="mask0_47_502" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-76" y="-57" width="510" height="409">
+<rect x="-75.167" y="-57" width="509" height="409" fill="url(#paint0_radial_47_502)"/>
+</mask>
+<g mask="url(#mask0_47_502)">
+<circle cx="178.833" cy="147" r="146.5" fill="#F2FBF7" stroke="#16A358"/>
+<circle cx="178.833" cy="147" r="39.5" stroke="#16A358"/>
+<circle cx="178.833" cy="147" r="55.5" stroke="#16A358"/>
+<circle cx="178.833" cy="147" r="115.5" fill="#DCFCEA" stroke="#16A358"/>
+<circle cx="178.833" cy="147" r="75.5" fill="white" stroke="#16A358"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_47_502" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(179.333 147.5) rotate(90) scale(140.5 174.852)">
+<stop stop-color="#D9D9D9" stop-opacity="0.5"/>
+<stop offset="1" stop-color="#737373" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>
