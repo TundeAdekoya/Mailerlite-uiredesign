@@ -96,6 +96,9 @@
         width: 50%;
     }
     
+    #hero-section{                        
+        padding: 0px 16px;
+    }
 }
 
 @media (max-width: 560px) {

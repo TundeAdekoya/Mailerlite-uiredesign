@@ -7,9 +7,9 @@ import { ChevronDown, Globe, Menu } from 'lucide-react';
 
 const Navbar = () => {
   return (
-    <div id="navbar" className="flex justify-between items-center gap-x-10 py-3 ">
+    <div id="navbar" className="flex justify-between items-center gap-x-10  ">
         <div className="company-logo " >
-            <Image src={CompanyImage} alt="Company Logo" width={88} height={88} />
+            <Image src={CompanyImage} alt="Company Logo" width={96} height={96} />
         </div>
 
         <div className="nav-list">

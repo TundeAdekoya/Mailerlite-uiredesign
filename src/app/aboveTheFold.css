@@ -105,7 +105,9 @@
         display:block;
     }
 
-    
+    #aboveTheFold{
+        padding: 0px 16px;
+    }
     
 }
 
@@ -114,7 +116,7 @@
         flex-direction: column;
     }
     .main-cta .sign-up, .main-cta .demo{
-        width: 100vw;
+        width: 358px;
     }
 
 }

@@ -1,5 +1,6 @@
 #navbar{
     font-size: 14px;
+    padding: 24px 40px;
 }
 
 
@@ -49,14 +50,23 @@
     display: none;
 }
 
-@media (max-width: 1081px) { 
+@media (max-width: 1100px) { 
     .nav-call-to-action-web ul{
         display: none;
     }
 }
 
+@media (max-width: 900px){
+    #navbar{
+        padding: 24px;
+    }
+    
+}
+
 
 @media (max-width: 850px){
+
+    
       .nav-call-to-action-mobile{
           display: flex;
       }
@@ -66,3 +76,10 @@
       }
 
   } 
+
+
+  @media (max-width: 500px){
+    #navbar{
+        padding: 24px 16px;
+    }
+  }
